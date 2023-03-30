@@ -32,3 +32,8 @@
 
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers
 - https://github.com/Ileriayo/markdown-badges
+
+#### HTML
+
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+- https://stackoverflow.com/questions/11620698/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript
