@@ -17,8 +17,8 @@ function Contact() {
         </div>
 
         <div>
-          <label>What are you looking for?</label>
-          <input type="checkbox" name="" id="" required></input>
+          <label>Tell me a little about the project.</label>
+          <input type="textarea" name="request" id="request" required></input>
         </div>
 
         <div>
