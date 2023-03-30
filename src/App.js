@@ -2,9 +2,9 @@ import "./App.css";
 
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Works from "./components/Works";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Works from "./pages/Works";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
