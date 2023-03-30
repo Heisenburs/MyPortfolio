@@ -1,9 +1,10 @@
 import React from "react";
+import logo from "../assets/logo-nobg.png";
 
 function Logo() {
   return (
     <div>
-      <img src="public/logo-nobg.png" alt="logo" width="50px" height="50px" />
+      <img src={logo} alt="logo" width="50px" height="50px" />
     </div>
   );
 }
