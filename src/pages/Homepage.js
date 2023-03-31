@@ -3,7 +3,6 @@ import Logo from "../components/Logo";
 import { useState, useEffect } from "react";
 import Quote from "../components/Quote";
 import pdf from "../assets/JadaBurs-Resume.pdf";
-import logo from "../assets/logo-nobg.png";
 
 function Homepage() {
   const [quote, setQuote] = useState(null);
@@ -26,7 +25,6 @@ function Homepage() {
 
   return (
     <div>
-      <h2>Homepage</h2>
       {quote && <Quote quote={quote} />}
 
       <button>

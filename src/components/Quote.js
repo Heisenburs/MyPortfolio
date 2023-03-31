@@ -1,7 +1,7 @@
 function Quote(props) {
   const { quote } = props;
   console.log(quote);
-  return <div>{quote.quote}</div>;
+  return <div> " {quote.quote} " - Kanye West</div>;
 }
 
 export default Quote;

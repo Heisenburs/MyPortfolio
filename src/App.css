@@ -1,3 +1,9 @@
-.nav {
-  display: flex;
+/* ? NavBar Component */
+.navlink {
+  text-decoration: none;
+}
+
+.navlink:visited {
+  text-decoration: none;
+  color: black;
 }

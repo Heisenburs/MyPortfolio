@@ -37,3 +37,5 @@
 
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
 - https://stackoverflow.com/questions/11620698/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript
+- https://www.freecodecamp.org/news/html-textarea-how-to-add-text-box-to-your-website/
+-
