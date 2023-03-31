@@ -1,9 +1,20 @@
+.App {
+  background-image: url("C:\Users\Jada\OneDrive\Desktop\SECohort04\myportfolio\src\assets\ilgmyzin-5lk2642XbzE-unsplash.jpg");
+  background-size: cover;
+}
+
 /* ? NavBar Component */
+
 .navlink {
   text-decoration: none;
+  color: bisque;
 }
 
 .navlink:visited {
   text-decoration: none;
-  color: black;
+  color: bisque;
+}
+
+a.navlink.nav-link {
+  max-width: fit-content;
 }

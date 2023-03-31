@@ -36,6 +36,18 @@
 #### HTML
 
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
-- https://stackoverflow.com/questions/11620698/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript
+
 - https://www.freecodecamp.org/news/html-textarea-how-to-add-text-box-to-your-website/
 -
+
+#### CSS
+
+-https://stackoverflow.com/questions/37669391/how-to-get-rid-of-underline-for-link-component-of-react-router
+
+#### JS
+
+-- https://stackoverflow.com/questions/11620698/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript
+
+#### React
+
+- https://react-bootstrap.github.io/components/carousel/
