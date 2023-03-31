@@ -1,19 +1,26 @@
-.App {
-  background-image: url("C:\Users\Jada\OneDrive\Desktop\SECohort04\myportfolio\src\assets\ilgmyzin-5lk2642XbzE-unsplash.jpg");
-  background-size: cover;
+body {
+  background-image: url("C:\Users\Jada\OneDrive\Desktop\SECohort04\myportfolio\src\assets\leaves-unsplash.jpg");
+  /* height: 500px; */
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  background-position: center;
   font-family: "Yeseva One", cursive;
+}
+
+.App {
+  background-color: white;
 }
 
 /* ? NavBar Component */
 
 .navlink {
   text-decoration: none;
-  color: bisque;
+  color: black;
 }
 
 .navlink:visited {
   text-decoration: none;
-  color: bisque;
+  color: black;
 }
 
 a.navlink.nav-link {
@@ -23,7 +30,38 @@ a.navlink.nav-link {
 /* ? Quote Component */
 
 .yequote {
-  color: bisque;
+  color: black;
 }
 
 /* ? Homepage */
+
+/* ? resume Button Component */
+.button-54 {
+  font-family: "Yeseva One", cursive;
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}

@@ -2,7 +2,8 @@ import React from "react";
 import Logo from "../components/Logo";
 import { useState, useEffect } from "react";
 import Quote from "../components/Quote";
-import pdf from "../assets/JadaBurs-Resume.pdf";
+
+import ResumeButton from "../components/ResumeButton";
 
 function Homepage() {
   const [quote, setQuote] = useState(null);
@@ -27,11 +28,7 @@ function Homepage() {
     <div>
       {quote && <Quote quote={quote} />}
 
-      <button>
-        <a href={pdf} download={pdf}>
-          Resume
-        </a>
-      </button>
+      <ResumeButton />
 
       <Logo />
     </div>
