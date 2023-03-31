@@ -1,6 +1,7 @@
 .App {
   background-image: url("C:\Users\Jada\OneDrive\Desktop\SECohort04\myportfolio\src\assets\ilgmyzin-5lk2642XbzE-unsplash.jpg");
   background-size: cover;
+  font-family: "Yeseva One", cursive;
 }
 
 /* ? NavBar Component */
@@ -18,3 +19,11 @@
 a.navlink.nav-link {
   max-width: fit-content;
 }
+
+/* ? Quote Component */
+
+.yequote {
+  color: bisque;
+}
+
+/* ? Homepage */
